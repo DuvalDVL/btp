@@ -6,41 +6,65 @@
 
   <script>
 const CLIENT = {
-  nom:             "FG Elec",
-  metier:          "Électricien & Installateur Climatisation",
-  ville:           "Rumilly",
-  departement:     "Haute-Savoie",
-  tel:             "06 23 42 23 53",
-  email:           "fg-elec@outlook.fr",
-  adresse:         "95 Rte sur les Marais, 74150 Vallières-sur-Fier, France",
-  siren:           "NA",
-  slogan:          "Des installations électriques et climatiques fiables pour votre confort sur le bassin annécien.",
-  description:     "FG Elec est votre partenaire de confiance pour tous vos travaux d'électricité générale et de climatisation sur le secteur de l'Albanais et ses alentours. Que ce soit pour une mise aux normes à Rumilly, la pose d'une borne de recharge à Annecy ou une installation domotique à Chambéry, nous garantissons des interventions soignées et sécurisées.",
-  anneeCreation:   2018,
+  nom: "FG Elec",
+  metier: "Électricien & Installateur Climatisation",
+  ville: "Rumilly",
+  departement: "Haute-Savoie",
+  tel: "06 23 42 23 53",
+  email: "fg-elec@outlook.fr",
+  adresse: "95 Rte sur les Marais, 74150 Vallières-sur-Fier, France",
+  siren: "",
+  slogan: "L'énergie maîtrisée pour votre habitat sur le bassin annécien et ses environs.",
+  description: "FG Elec intervient pour tous vos travaux d'électricité générale et l'installation de systèmes de climatisation. De la rénovation complète à la pose de bornes IRVE, nous assurons des interventions conformes et sécurisées sur Rumilly, Annecy, Aix-les-Bains et Chambéry.",
+  anneeCreation: 2021,
   couleurPrimaire: "#FFFFFF",
-  couleurAccent:   "#0284C7",
-  couleurClaire:   "#F8F9FA",
+  couleurAccent: "#0056D2",
+  couleurClaire: "#F3F5F7",
   services: [
-    { icone: "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><path stroke-linecap='round' stroke-linejoin='round' d='M13 10V3L4 14h7v7l9-11h-7z'/></svg>", titre: "Électricité Générale", texte: "Installations neuves, rénovations complètes et mises aux normes sécurisées." },
-    { icone: "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><path stroke-linecap='round' stroke-linejoin='round' d='M11.412 15.655L9.75 21.75l3.745-4.012M9.257 13.5H3.75l2.659-2.849m2.048-2.194L14.25 2.25 12 10.5h8.25l-4.707 5.043M8.457 8.457L3 3m5.457 5.457l7.086 7.086m0 0L21 21'/></svg>", titre: "Dépannage Rapide", texte: "Intervention experte pour vos pannes de courant et dysfonctionnements électriques." },
-    { icone: "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><path stroke-linecap='round' stroke-linejoin='round' d='M9.59 4.59A2 2 0 1111 8H2m10.59 11.41A2 2 0 1014 16H2m15.73-8.27A2.5 2.5 0 1119.5 12H2'/></svg>", titre: "Climatisation & Ventilation", texte: "Pose et entretien de systèmes réversibles et VMC pour un air sain toute l'année." },
-    { icone: "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><rect x='3' y='11' width='18' height='8' rx='2' ry='2'/><circle cx='7' cy='19' r='2'/><circle cx='17' cy='19' r='2'/><path d='M4 11V7a2 2 0 012-2h12a2 2 0 012 2v4'/></svg>", titre: "Bornes IRVE", texte: "Installation certifiée de bornes de recharge pour véhicules électriques à domicile." },
-    { icone: "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><path stroke-linecap='round' stroke-linejoin='round' d='M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z'/><path stroke-linecap='round' stroke-linejoin='round' d='M9 22V12h6v10'/></svg>", titre: "Domotique & Alarmes", texte: "Maison connectée, contrôle à distance et systèmes d'alarme intrusion." },
-    { icone: "<svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2'><path stroke-linecap='round' stroke-linejoin='round' d='M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6'/></svg>", titre: "Chauffages Électriques", texte: "Mise en place de radiateurs performants pour une chaleur douce et économique." }
+    { 
+      icone: "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polygon points='13 2 3 14 12 14 11 22 21 10 12 10 13 2'/></svg>", 
+      titre: "Électricité générale", 
+      texte: "Installations neuves, rénovations et mise aux normes de vos tableaux électriques." 
+    },
+    { 
+      icone: "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M12 9a4 4 0 0 0-2 7.5'></path><path d='M12 7v2'></path><path d='M4.2 13a8.1 8.1 0 0 1 .4-2.8'></path><path d='M5.3 6.8l1.7 1'></path><path d='M19.8 13a8.1 8.1 0 0 0-.4-2.8'></path><path d="M18.7 6.8l-1.7 1"></path></svg>", 
+      titre: "Climatisation & Ventilation", 
+      texte: "Pose et entretien de climatisations réversibles et systèmes de ventilation performants." 
+    },
+    { 
+      icone: "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect x='4' y='4' width='16' height='16' rx='2' ry='2'></rect><rect x='9' y='9' width='6' height='6'></rect><line x1='9' y1='1' x2='9' y2='4'></line><line x1='15' y1='1' x2='15' y2='4'></line><line x1='9' y1='20' x2='9' y2='23'></line><line x1='15' y1='20' x2='15' y2='23'></line><line x1='20' y1='9' x2='23' y2='9'></line><line x1='20' y1='14' x2='23' y2='14'></line><line x1='1' y1='9' x2='4' y2='9'></line><line x1='1' y1='14' x2='4' y2='14'></line></svg>", 
+      titre: "Bornes de recharge IRVE", 
+      texte: "Installation de solutions de recharge sécurisées pour véhicules électriques à domicile." 
+    },
+    { 
+      icone: "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z'></path></svg>", 
+      titre: "Chauffage électrique", 
+      texte: "Conseil et mise en place de radiateurs à inertie et systèmes de chauffage optimisés." 
+    },
+    { 
+      icone: "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z'></path><polyline points='9 22 9 12 15 12 15 22'></polyline></svg>", 
+      titre: "Domotique & Alarmes", 
+      texte: "Maison connectée, contrôle à distance, câblage réseau et systèmes anti-intrusion." 
+    },
+    { 
+      icone: "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='12' cy='12' r='10'></circle><line x1='12' y1='8' x2='12' y2='12'></line><line x1='12' y1='16' x2='12.01' y2='16'></line></svg>", 
+      titre: "Dépannage rapide", 
+      texte: "Recherche de pannes, coupures de courant et réparation d'équipements défectueux." 
+    }
   ],
   realisations: [
-    { titre: "Installation borne de recharge IRVE — Annecy", annee: "2024" },
-    { titre: "Rénovation électrique complète maison — Vallières", annee: "2023" },
-    { titre: "Pose climatisation réversible bureaux — Chambéry", annee: "2023" },
-    { titre: "Création réseau informatique et domotique — Aix-les-Bains", annee: "2024" }
+    { titre: "Rénovation du tableau et mise aux normes — Annecy", annee: "2024" },
+    { titre: "Installation d'une climatisation réversible — Chambéry", annee: "2023" },
+    { titre: "Pose d'une borne de recharge IRVE 7.4kW — Rumilly", annee: "2024" },
+    { titre: "Mise en place d'un réseau domotique complet — Aix-les-Bains", annee: "2023" }
   ],
   avis: [
-    { auteur: "Julien D.", note: 5, texte: "Artisan très réactif et professionnel. Il a installé une borne pour mon véhicule électrique sur Annecy, le travail est impeccable et les explications très claires." },
-    { auteur: "Sophie M.", note: 5, texte: "Intervention en urgence pour un dépannage sur notre tableau électrique. Un électricien de confiance que je recommande vivement autour de Rumilly." },
-    { auteur: "Laurent P.", note: 5, texte: "Nous avons fait appel à FG Elec pour la pose d'une climatisation à Chambéry. Chantier laissé très propre, devis respecté et matériel de qualité." }
+    { auteur: "Laurent M.", note: 5, texte: "Intervention rapide et travail très propre. M. G. a pris le temps de bien m'expliquer le fonctionnement de ma nouvelle climatisation." },
+    { auteur: "Céline T.", note: 5, texte: "Artisan sérieux sollicité pour la rénovation électrique de notre maison ancienne. Devis respecté et chantier laissé impeccable." },
+    { auteur: "Hugo B.", note: 5, texte: "Au top pour l'installation de ma borne de recharge. Très réactif depuis le premier contact jusqu'à la mise en route." }
   ],
   reseaux: {
-    google:   "#",
+    google: "#",
     facebook: "#"
   }
 };
